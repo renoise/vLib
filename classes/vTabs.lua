@@ -131,7 +131,6 @@ function vTabs:build()
 
   self.view = vb:column{
     id = self.id,
-    style = "plain",
   }
 
   self.switcher = vb:switch{
@@ -151,9 +150,7 @@ function vTabs:build()
   }
   self.switch_aligner:add_child(self.switcher)
 
-  self.tabs_elm = vb:row{
-    style = "plain",
-  }
+  self.tabs_elm = vb:row{}
   self.spacer_h = vb:space{
     height = self.height,
     width = 1,
@@ -244,7 +241,7 @@ function vTabs:set_content(t)
       self.view:remove_child(tab_elm)
       tab_elm = nil
     end
-    tab_views[k] = vb:column{id = tab_id,style="plain"}
+    tab_views[k] = vb:column{id = tab_id}
     tab_views[k]:add_child(v)
     self.tab_contents[k] = v
   end
