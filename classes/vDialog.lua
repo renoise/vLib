@@ -96,6 +96,18 @@ function vDialog:show()
 
 end
 
+--------------------------------------------------------------------------------
+
+function vDialog:close()
+  TRACE("vDialog:close()")
+
+  if self.dialog and self.dialog.visible then
+    self.dialog:close()
+    --self.dialog_hidden_observable:bang()
+  end
+
+end  
+
 -------------------------------------------------------------------------------
 -- @return renoise.Views.Rack
 
