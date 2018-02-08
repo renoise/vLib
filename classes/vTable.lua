@@ -502,12 +502,10 @@ function vTable:update()
     end
 
     -- apply custom styling to row?
-    if item then
-      if item.__row_style then
-        row_elm.style = item.__row_style
-      else
-        row_elm.style = self.row_style
-      end
+    if item and item.__row_style then
+      row_elm.style = item.__row_style
+    else
+      row_elm.style = self.row_style
     end
 
     -- update cells 
