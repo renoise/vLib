@@ -7,9 +7,9 @@ vPrompt
 
 ]]
 
+cLib.require (_clibroot.."cColor")
 
 class 'vPrompt'
-
 
 vPrompt.generic_button_width = 80
 vPrompt.generic_button_height = 26

@@ -2,7 +2,8 @@
 vLogView
 ============================================================================]]--
 
-require (_vlibroot.."vCompositeControl")
+cLib.require (_clibroot.."cString")
+cLib.require (_vlibroot.."vCompositeControl")
 
 class 'vLogView' (vCompositeControl)
 

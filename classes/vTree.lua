@@ -2,8 +2,9 @@
 vTree
 ============================================================================]]--
 
-require (_clibroot.."cFilesystem")
-require (_vlibroot.."vControl")
+cLib.require (_clibroot.."cFilesystem")
+cLib.require (_vlibroot.."vControl")
+cLib.require (_vlibroot.."vScrollbar")
 
 class 'vTree' (vControl)
 

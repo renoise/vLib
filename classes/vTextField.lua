@@ -16,7 +16,7 @@ Editable textfield with auto-sizing and support for placeholder-text
 
 ]]
 
-require (_vlibroot.."vControl")
+cLib.require (_vlibroot.."vControl")
 
 class 'vTextField' (vControl)
 

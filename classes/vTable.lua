@@ -9,19 +9,19 @@ vTable
 --    __row_style : a valid Viewbuilder.Rack style property
 --
 
-require (_vlibroot.."vControl")
-require (_vlibroot.."vScrollbar")
-require (_vlibroot.."vCell")
-require (_vlibroot.."vCellButton")
-require (_vlibroot.."vCellBitmap")
-require (_vlibroot.."vCellCheckBox")
-require (_vlibroot.."vCellPopup")
-require (_vlibroot.."vCellText")
-require (_vlibroot.."vCellValueBox")
-require (_vlibroot.."vCellTextField")
-require (_vlibroot.."helpers/vDataProvider")
-require (_vlibroot.."helpers/vVector")
-require (_vlibroot..'helpers/vSelection')
+cLib.require (_vlibroot.."vControl")
+cLib.require (_vlibroot.."vScrollbar")
+cLib.require (_vlibroot.."vCell")
+cLib.require (_vlibroot.."vCellButton")
+cLib.require (_vlibroot.."vCellBitmap")
+cLib.require (_vlibroot.."vCellCheckBox")
+cLib.require (_vlibroot.."vCellPopup")
+cLib.require (_vlibroot.."vCellText")
+cLib.require (_vlibroot.."vCellValueBox")
+cLib.require (_vlibroot.."vCellTextField")
+cLib.require (_vlibroot.."helpers/vDataProvider")
+cLib.require (_vlibroot.."helpers/vVector")
+cLib.require (_vlibroot..'helpers/vSelection')
 
 class 'vTable' (vControl)
 

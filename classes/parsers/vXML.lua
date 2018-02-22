@@ -7,14 +7,12 @@ Ability to parse xml into a vLib-friendly table representation
 .
 #
 
-TODO use cParseXML, share data with this class
- (retrieve, modify original document)
 
 ]]
 
 class 'vXML' 
 
-require (_clibroot.."cParseXML")
+--require (_clibroot.."cParseXML")
 
 -------------------------------------------------------------------------------
 

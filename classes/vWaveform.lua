@@ -33,7 +33,7 @@ vWaveform
 
 --==============================================================================
 
-require (_vlibroot.."vGraph")
+cLib.require (_vlibroot.."vGraph")
 
 class 'vWaveform' (vGraph)
 

@@ -25,7 +25,7 @@ vCompositeControl
 
 --------------------------------------------------------------------------------
 
-require (_vlibroot.."vControl")
+cLib.require (_vlibroot.."vControl")
 
 class 'vCompositeControl' (vControl)
 

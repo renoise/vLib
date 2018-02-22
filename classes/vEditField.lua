@@ -16,8 +16,8 @@ cValue-based edit field, inspired by the Advanced-Edit panel
 
 ]]
 
-require (_vlibroot.."vControl")
-require (_clibroot.."cNumber")
+cLib.require (_clibroot.."cNumber")
+cLib.require (_vlibroot.."vControl")
 
 class 'vEditField' (vControl)
 

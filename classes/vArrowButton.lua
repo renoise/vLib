@@ -9,7 +9,7 @@ A button which emulates the 'toggle arrow' button in Renoise
 
 --==============================================================================
 
-require (_vlibroot.."vToggleButton")
+cLib.require (_vlibroot.."vToggleButton")
 
 class 'vArrowButton' (vToggleButton)
 

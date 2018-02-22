@@ -9,7 +9,7 @@ A basic toggle button
 
 --==============================================================================
 
-require (_vlibroot.."vButton")
+cLib.require (_vlibroot.."vButton")
 
 class 'vToggleButton' (vButton)
 

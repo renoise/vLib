@@ -23,7 +23,10 @@ Note: press return to select the currently matched item, if any.
 
 ]]
 
-require (_vlibroot.."vTextField")
+
+cLib.require (_clibroot.."cTable")
+cLib.require (_vlibroot.."vTextField")
+
 
 class 'vSearchField' (vTextField)
 

@@ -17,10 +17,11 @@ vFileBrowser
 
 --]]
 
-require (_clibroot.."cFilesystem")
-require (_vlibroot.."helpers/vSelection")
-require (_vlibroot.."vCompositeControl")
-require (_vlibroot.."vTable")
+cLib.require (_clibroot.."cString")
+cLib.require (_clibroot.."cFilesystem")
+cLib.require (_vlibroot.."helpers/vSelection")
+cLib.require (_vlibroot.."vCompositeControl")
+cLib.require (_vlibroot.."vTable")
 
 class 'vFileBrowser' (vCompositeControl)
 

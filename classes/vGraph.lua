@@ -39,7 +39,7 @@ vGraph
 
 --==============================================================================
 
-require (_vlibroot.."vControl")
+cLib.require (_vlibroot.."vControl")
 
 class 'vGraph' (vControl)
 

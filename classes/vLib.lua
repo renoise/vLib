@@ -12,7 +12,8 @@ This class provides static members and methods for the vLib library
 
 --==============================================================================
 
-require (_clibroot.."cConfig")
+cLib.require (_clibroot.."cString")
+cLib.require (_clibroot.."cConfig")
 
 class 'vLib'
 

@@ -3,7 +3,7 @@ vCellText
 ============================================================================]]--
 
 
-require (_vlibroot.."helpers/vMetrics")
+cLib.require (_vlibroot.."helpers/vMetrics")
 
 class 'vCellText' (vCell)
 

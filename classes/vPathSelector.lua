@@ -1,5 +1,5 @@
 --[[============================================================================
-vFileBrowser 
+vPathSelector 
 ============================================================================]]--
 
 --[[
@@ -25,7 +25,7 @@ A UI component for selecting/display a filesystem (file-)path
 
 --==============================================================================
 
-require (_vlibroot.."vControl")
+cLib.require (_vlibroot.."vControl")
 
 class 'vPathSelector' (vControl)
 

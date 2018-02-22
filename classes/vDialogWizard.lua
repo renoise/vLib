@@ -18,7 +18,7 @@ vDialogWizard
 
 --==============================================================================
 
-require (_vlibroot.."vDialog")
+cLib.require (_vlibroot.."vDialog")
 
 class 'vDialogWizard' (vDialog)
 

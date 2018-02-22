@@ -9,7 +9,7 @@ A basic button
 
 --==============================================================================
 
-require (_vlibroot.."vControl")
+cLib.require (_vlibroot.."vControl")
 
 class 'vButton' (vControl)
 
