@@ -26,8 +26,9 @@ function vDialog:__init(...)
   self.dialog_content = args.dialog_content or nil
 
   -- function, custom keyhandler
-  self.dialog_keyhandler = args.dialog_keyhandler or function() end
-
+  self.dialog_keyhandler = self.dialog_keyhandler and self.dialog_keyhandler
+    or args.dialog_keyhandler or function() end
+  
   --- function, supply your own idle notifier here
   -- (will only start once Renoise has an active document)
   --self.on_idle_notifier = args.on_idle_notifier or nil
