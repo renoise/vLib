@@ -30,6 +30,7 @@ function vButtonStripMember:__init(...)
   self.text = args.text 
   self.color = args.color 
   self.tooltip = args.tooltip 
+  self.active = args.active
 
 end
 
@@ -43,11 +44,14 @@ function vButtonStripMember:__tostring()
     ..", text:"..tostring(self.text)
     ..", color:"..tostring(self.color)
     ..", tooltip:"..tostring(self.tooltip)
+    ..", active:"..tostring(self.active)
     .."}"
 end
 
 
 --=================================================================================================
+
+cLib.require (_vlibroot.."vControl")
 
 class 'vButtonStrip' (vControl)
 
@@ -287,6 +291,7 @@ function vButtonStrip:update()
         text = v.text,
         color = v.color,
         tooltip = v.tooltip,
+        active = v.active,
         pressed = function()
           self:press(k)
         end,
