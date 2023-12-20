@@ -44,7 +44,7 @@ And secondly, we are keeping a reference to the object and handing over that obj
 ## Documentation
 
 Point your browser to this location to browse the auto-generated luadocs:  
-https://renoise.github.io/luadocs/vlib
+https://renoise.github.io/libraries/vlib/index.html
 
 ## Examples 
 
