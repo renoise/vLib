@@ -13,24 +13,27 @@ vLib tries to stay as close as possible to the Renoise Viewbuilder API. This is 
 
 If you are not familiar with that API, it's highly recommended to study some [Viewbuilder examples](https://github.com/renoise/xrnx/tree/master/Tools/com.renoise.ExampleToolGui.xrnx) first. However, if you are familiar with the Viewbuilder API, the following syntax should be quite familiar: 
 
-    -- create a viewbuilder 
-    local vb = renoise.ViewBuilder()
-    
-    -- create a vLib toggle button
-    local toggle_button = vToggleButton{
-      vb = vb,
-      text_enabled = "I'm enabled",
-      text_disabled = "I'm turned off",
-      width = 50,
-      height = 20,
-      notifier = function(active)
-        -- do something when clicked
-      end,
-    }
-    
-    local view = vb:row{
-      toggle_button.view -- add to view using the 'view' property 
-    }
+```lua
+-- create a viewbuilder 
+local vb = renoise.ViewBuilder()
+
+-- create a vLib toggle button
+local toggle_button = vToggleButton{
+  vb = vb,
+  text_enabled = "I'm enabled",
+  text_disabled = "I'm turned off",
+  width = 50,
+  height = 20,
+  notifier = function(active)
+    -- do something when clicked
+  end,
+}
+
+-- add to view using the 'view' property
+local view = vb:row{
+  toggle_button.view
+}
+```
 
 If you look closely, you'll notice a few minor details that are different from how the Viewbuilder API is used. 
 
